@@ -8,10 +8,10 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.jellyfishmix</groupId>
-    <artifactId>interchange-wx</artifactId>
+    <groupId>com.jellyfishmix.interchange</groupId>
+    <artifactId>wx</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>interchange-wx</name>
+    <name>wx</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
