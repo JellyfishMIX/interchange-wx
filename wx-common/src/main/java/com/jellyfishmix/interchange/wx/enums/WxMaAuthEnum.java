@@ -4,15 +4,6 @@ package com.jellyfishmix.interchange.wx.enums;
  * @author JellyfishMIX
  * @date 2020/10/20 10:36
  */
-
-import lombok.Getter;
-
-/**
- * @author JellyfishMIX
- * @date 2020/4/6 3:22 上午
- * 开发中使用，暂时弃置
- */
-@Getter
 public enum WxMaAuthEnum implements CodeMessageEnum {
     // code换取openid Enum
     REQUEST_SUCCESS(0, "请求成功"),
@@ -29,5 +20,14 @@ public enum WxMaAuthEnum implements CodeMessageEnum {
     WxMaAuthEnum(Integer code, String message) {
         this.code = code;
         this.message = message;
+    }
+
+    @Override
+    public Integer getCode() {
+        return code;
+    }
+
+    public String getMessage() {
+        return message;
     }
 }
